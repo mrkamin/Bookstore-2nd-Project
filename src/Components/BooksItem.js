@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 
-export const BooksItem = () => (
-    <>
+const BooksItem = () => (
+  <>
     <div>BooksItem</div>
     <button type="button">Remove</button>
-    </>
+  </>
 );
+export default BooksItem;

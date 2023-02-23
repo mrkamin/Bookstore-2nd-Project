@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 
-export const BooksCatagories = () => (
-    <>
+const BooksCatagories = () => (
+  <>
     <h1>Hi</h1>
     <div>
-        <button type="button">Check Status</button>
+      <button type="button">Check Status</button>
     </div>
-        </>
+  </>
 );
+export default BooksCatagories;

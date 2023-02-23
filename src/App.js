@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 // components
-import {NavBar} from './Components/NavBar';
-import { BooksStore } from './Components/BooksStor';
-import { BooksCatagories } from './Components/BooksCategories';
+import NavBar from './Components/NavBar';
+import BooksStore from './Components/BooksStor';
+import BooksCatagories from './Components/BooksCategories';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-        <Route index element={<BooksStore />} />
-        <Route path='bookcatagories' element={<BooksCatagories />} />
+          <Route index element={<BooksStore />} />
+          <Route path="bookcatagories" element={<BooksCatagories />} />
         </Routes>
       </BrowserRouter>
     </>
