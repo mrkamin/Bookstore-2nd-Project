@@ -15,7 +15,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route index element={<BooksStore />} />
-          <Route path="bookcatagories" element={<BooksCatagories />} />
+          <Route path="bookscatagories" element={<BooksCatagories />} />
         </Routes>
       </BrowserRouter>
     </>
