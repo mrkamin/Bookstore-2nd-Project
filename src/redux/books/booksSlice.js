@@ -1,19 +1,33 @@
-import { v4 as uuidv4 } from 'uuid';
+const addBooks = 'addBook';
+const removeBooks = 'removeBook';
 
-const addBooks = 'book/booksSlice/addBook';
-const removeBooks = 'book/booksSlice/removeBook';
+const initialState = [
+  {
+    id: 1,
+    title: 'The Great Gatsby',
+    author: 'John Smith',
+    category: 'Fiction',
+  },
+  {
+    id: 2,
+    title: 'Anna Karenina',
+    author: 'Leo Tolstoy',
+    category: 'Fiction',
+  },
+  {
+    id: 3,
+    title: 'The Selfish Gene',
+    author: 'Richard Dawkins',
+    category: 'Nonfiction',
+  },
+];
 
-const initialState = [];
 function reducer(store = initialState, action = {}) {
   switch (action.type) {
     case addBooks:
       return [
         ...store,
-        {
-          title: action.load.title,
-          author: action.load.author,
-          id: uuidv4(),
-        },
+        action.payload,
       ];
     case removeBooks:
       return [
@@ -24,7 +38,7 @@ function reducer(store = initialState, action = {}) {
   }
 }
 
-export const addBook = (load) => ({ type: addBooks, load });
+export const addBook = (payload) => ({ type: addBooks, payload });
 
 export const removeBook = (id) => ({ type: removeBooks, id });
 
