@@ -86,8 +86,11 @@ By building this application, we will learn how to use React and Redux in the co
 
 > 
 
-- **Make simple calculations.**
-- **Read a random math-related quote.**
+- **Project 1: Initialize the project with components (React only).**
+- **Project 2: Add reducers and actions.**
+- **Project 3: Use Redux in React components.**
+- **Project 4: Connect to API.**
+- **Project 5: Styling.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
