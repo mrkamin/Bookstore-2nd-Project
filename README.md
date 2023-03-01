@@ -88,9 +88,7 @@ By building this application, we will learn how to use React and Redux in the co
 
 - **Project 1: Initialize the project with components (React only).**
 - **Project 2: Add reducers and actions.**
-- **Project 3: Use Redux in React components.**
-- **Project 4: Connect to API.**
-- **Project 5: Styling.**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,6 +157,14 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/Mohamma63974237)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-rafi-amin-63b4319b/)
 
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- **Project 3: Use Redux in React components.**
+- **Project 4: Connect to API.**
+- **Project 5: Styling.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
