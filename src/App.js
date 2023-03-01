@@ -5,7 +5,7 @@ import './App.css';
 
 // components
 import NavBar from './Components/NavBar';
-import BooksStore from './Components/BooksStor';
+import BooksSlice from './Components/BooksStor';
 import BooksCatagories from './Components/BooksCategories';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route index element={<BooksStore />} />
+          <Route index element={<BooksSlice />} />
           <Route path="bookscatagories" element={<BooksCatagories />} />
         </Routes>
       </BrowserRouter>
