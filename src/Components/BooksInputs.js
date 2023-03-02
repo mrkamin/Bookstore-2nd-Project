@@ -12,8 +12,10 @@ const BooksInputs = () => {
         e.preventDefault();
         const title = e.target.elements.title.value;
         const author = e.target.elements.author.value;
-        const payload = { title, author, id: uuidv4() };
-        dispatch(addBook(payload));
+        const payload = {
+          item_id: uuidv4(), title, author, category: 'fiction',
+        };
+        dispatch(addBook(payload)).unwrap();
         e.target.reset();
       }}
       >
