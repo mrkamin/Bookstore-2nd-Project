@@ -5,8 +5,7 @@
 }
 
 .form-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1rem;
 }
 
@@ -51,34 +50,57 @@
 }
 
 .books-item-title {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1.1rem;
   width: 51%;
 }
 
 .books-item-category {
-  color: #898989;
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
 }
 
 .books-title {
-  font-size: larger;
-  font-weight: 500;
-  color: #000;
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
 }
 
 .books-item-author {
-  color: #8588cb;
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
 }
 
 .books-item-btns {
   display: flex;
   gap: 1rem;
-  color: #8588cb;
+  color: #4386bf;
   border: none;
   background-color: transparent;
-
-  /*  padding: 0 1.3rem; */
   border-right: 3.1px solid #e8e8e8;
   cursor: pointer;
 }
@@ -170,34 +192,4 @@
 .bookstor-sect hr {
   background-color: #898989;
   margin: 1.1rem 0;
-}
-
-/* BooksCategory */
-
-.booksCategor-container {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  background-color: #fafafa;
-  padding: 4%;
-  border-radius: 1.1px;
-}
-
-.bookcategory-status {
-  font-size: 2.1rem;
-}
-
-.bookcategory-btn {
-  color: #fff;
-  background-color: #0290ff;
-  border: none;
-  height: 2.1rem;
-  width: 14%;
-  border-radius: 0.3rem;
-  cursor: pointer;
-}
-
-.bookcategory-btn:hover {
-  color: #ffe;
-  background-color: #0144dd;
 }
