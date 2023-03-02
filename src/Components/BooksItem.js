@@ -9,20 +9,45 @@ const BooksItem = ({ item }) => {
   const { title, author, item_id } = item;
   return (
     <>
-      <div>
-        <h2>{title}</h2>
-        <h3>{author}</h3>
-      </div>
-      <button
-        type="button"
-        onClick={(e) => {
-          e.preventDefault();
-          // eslint-disable-next-line
+      <div className="books-item-container">
+        <div className="books-item-title">
+          <div>
+            <p className="books-item-category">Fiction</p>
+            <p className="books-title">{title}</p>
+            <p className="books-item-author">{author}</p>
+          </div>
+          <div className="books-item-btns">
+            <button className="books-item-btns" type="button">Comments</button>
+            <button
+              className="books-item-btns"
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                // eslint-disable-next-line
           dispatch(removeBook(item_id)).unwrap();
-        }}
-      >
-        Remove
-      </button>
+              }}
+            >
+              Remove
+            </button>
+            <button className="books-item-btns" type="button">Edit</button>
+          </div>
+        </div>
+        <div className="books-item-progress-container">
+          <div className="books-item-progress-section">
+            <div className="books-item-progress-circular" />
+            <div>
+              <p className="books-item-progress-percent">65%</p>
+              <p className="books-item-progress-span">Copleted</p>
+            </div>
+          </div>
+          <div className="books-item-progress-sect-divider" />
+          <div className="books-item-progress-chap-sect">
+            <span className="chap-title">CURRENT CHAPTER</span>
+            <p className="chap-num">Chapter 10</p>
+            <button type="button" className="books-item-updat-prog-btn">UPDATE</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

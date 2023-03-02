@@ -8,13 +8,17 @@ const BooksSlice = () => {
 
   return (
     <>
-      {booksSlice.map((bookItem) => (
-        <BooksItem
-          key={bookItem.item_id}
-          item={bookItem}
-        />
-      ))}
-      <BooksInputs />
+      <div className="bookstor-sect">
+        {booksSlice.map((bookItem) => (
+          <BooksItem
+            key={bookItem.item_id}
+            item={bookItem}
+          />
+        ))}
+        <hr />
+        <BooksInputs />
+      </div>
+
     </>
   );
 };

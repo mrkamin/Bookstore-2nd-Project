@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 3% 4%;
+}
+
+.nav-head-title {
+    display: flex;
+    align-items:baseline;
+    gap: 1rem;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.logo {
+    color: #0290ff;
+    cursor: pointer;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 3rem;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.list-item a:hover {
+    color: #0290ff;
+  }
+
+.icons {
+    color: #0290ff;
+    font-size: 1.5rem;
+}
