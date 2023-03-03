@@ -9,7 +9,7 @@ const CategoriesSlice = () => {
 
   return (
     <>
-      <div className="booksCategor-container">
+      <div className="booksCategor-container flex">
         <hr />
         <div>
           <h4 className="bookcategory-status">{categoriesSlice}</h4>

@@ -4,14 +4,14 @@ import { Outlet, Link } from 'react-router-dom';
 import { FaUserAlt } from 'react-icons/fa';
 
 const NavBar = () => (
-  <div className="panel-bg">
-    <div className="nav-head-title">
+  <div className="panel-bg flex">
+    <div className="nav-head-title flex">
       <div className="nav-title">
         <h1 className="Bookstore-CMS">Bookstore CMS</h1>
       </div>
       <div className="menubar">
         <nav className="navbar">
-          <ul className="navbar-list">
+          <ul className="navbar-list flex">
             <li className="list-item">
               <Link className="books-cms" to="/">Books</Link>
             </li>

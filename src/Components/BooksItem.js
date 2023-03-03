@@ -9,14 +9,14 @@ const BooksItem = ({ item }) => {
   const { title, author, item_id } = item;
   return (
     <>
-      <div className="books-item-container">
-        <div className="books-item-title">
+      <div className="books-item-container flex">
+        <div className="books-item-title flex">
           <div>
             <p className="books-item-category">Fiction</p>
             <p className="books-title">{title}</p>
             <p className="books-item-author">{author}</p>
           </div>
-          <div className="books-item-btns">
+          <div className="books-item-btns flex">
             <button className="books-item-btns" type="button">Comments</button>
             <button
               className="books-item-btns"
@@ -32,8 +32,8 @@ const BooksItem = ({ item }) => {
             <button className="books-item-btns" type="button">Edit</button>
           </div>
         </div>
-        <div className="books-item-progress-container">
-          <div className="books-item-progress-section">
+        <div className="books-item-progress-container flex">
+          <div className="books-item-progress-section flex">
             <div className="books-item-progress-circular" />
             <div>
               <p className="books-item-progress-percent">65%</p>
@@ -41,7 +41,7 @@ const BooksItem = ({ item }) => {
             </div>
           </div>
           <div className="books-item-progress-sect-divider" />
-          <div className="books-item-progress-chap-sect">
+          <div className="books-item-progress-chap-sect flex">
             <span className="chap-title">CURRENT CHAPTER</span>
             <p className="chap-num">Chapter 10</p>
             <button type="button" className="books-item-updat-prog-btn">UPDATE</button>

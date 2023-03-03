@@ -8,7 +8,7 @@ const BooksSlice = () => {
 
   return (
     <>
-      <div className="bookstor-sect">
+      <div className="bookstor-sect flex">
         {booksSlice.map((bookItem) => (
           <BooksItem
             key={bookItem.item_id}

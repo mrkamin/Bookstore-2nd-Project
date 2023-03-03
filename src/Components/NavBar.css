@@ -1,5 +1,4 @@
 .panel-bg {
-  display: flex;
   align-items: center;
   width: 87.5rem;
   height: 5.938rem;
@@ -9,12 +8,10 @@
 }
 
 .nav-head-title {
-  display: flex;
   align-items: baseline;
 }
 
 .nav-title {
-  display: flex;
   align-items: center;
 }
 
@@ -29,10 +26,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: #0290ff;
-}
-
-.navbar-list {
-  display: flex;
 }
 
 .list-item {
