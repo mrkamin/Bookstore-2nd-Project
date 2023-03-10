@@ -86,8 +86,9 @@ By building this application, we will learn how to use React and Redux in the co
 
 > 
 
-- **Make simple calculations.**
-- **Read a random math-related quote.**
+- **Project 1: Initialize the project with components (React only).**
+- **Project 2: Add reducers and actions.**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,6 +158,12 @@ To run tests, run the following command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-rafi-amin-63b4319b/)
 
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Project 3: Use Redux in React components.**
+- **Project 4: Connect to API.**
+- **Project 5: Styling.**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -172,8 +179,6 @@ Feel free to check the [issues page](https://github.com/mrkamin/Bookstore-2nd-Pr
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project put a ⭐️ thank you.
 
