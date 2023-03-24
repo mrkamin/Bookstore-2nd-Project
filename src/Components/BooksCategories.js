@@ -9,12 +9,13 @@ const CategoriesSlice = () => {
 
   return (
     <>
-      <div>
+      <div className="booksCategor-container flex">
         <hr />
         <div>
-          <h5>{categoriesSlice}</h5>
+          <h4 className="bookcategory-status">{categoriesSlice}</h4>
         </div>
         <button
+          className="bookcategory-btn"
           type="button"
           onClick={(e) => {
             e.preventDefault();

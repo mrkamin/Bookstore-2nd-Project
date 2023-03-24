@@ -160,8 +160,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - **Project 3: Use Redux in React components.**
 - **Project 4: Connect to API.**
 - **Project 5: Styling.**
@@ -181,8 +179,6 @@ Feel free to check the [issues page](https://github.com/mrkamin/Bookstore-2nd-Pr
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project put a ⭐️ thank you.
 

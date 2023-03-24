@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 // styleSheet
 import './App.css';
+import './Components/NavBar.css';
+import './Components/BooksCategories.css';
 
 // components
 import NavBar from './Components/NavBar';

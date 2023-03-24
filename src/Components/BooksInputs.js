@@ -7,7 +7,8 @@ const BooksInputs = () => {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="form-container">
+      <p className="title">ADD NEW BOOK</p>
       <form onSubmit={(e) => {
         e.preventDefault();
         const title = e.target.elements.title.value;
@@ -19,9 +20,9 @@ const BooksInputs = () => {
         e.target.reset();
       }}
       >
-        <input type="text" placeholder="Book title.." id="title" required />
-        <input type="text" placeholder="Book author..." id="author" required />
-        <button type="submit">Add Book</button>
+        <input className="form-input" type="text" placeholder="Book title.." id="title" required />
+        <input className="form-input" type="text" placeholder="Book author..." id="author" required />
+        <button className="form-btn" type="submit">Add Book</button>
       </form>
     </div>
   );
