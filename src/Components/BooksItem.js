@@ -5,7 +5,8 @@ import { removeBook } from '../redux/books/booksSlice';
 
 const BooksItem = ({ item }) => {
   const dispatch = useDispatch();
-  const { title, author, id } = item;
+  // eslint-disable-next-line
+  const { title, author, item_id } = item;
   return (
     <>
       <div>
@@ -16,7 +17,8 @@ const BooksItem = ({ item }) => {
         type="button"
         onClick={(e) => {
           e.preventDefault();
-          dispatch(removeBook(id));
+          // eslint-disable-next-line
+          dispatch(removeBook(item_id)).unwrap();
         }}
       >
         Remove

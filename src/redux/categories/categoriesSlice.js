@@ -1,4 +1,4 @@
-const checkStatus = 'categories/categoriesSlice/checkStatus';
+const checkStatus = 'checkStatus';
 
 const initialState = [];
 

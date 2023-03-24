@@ -10,6 +10,7 @@ const CategoriesSlice = () => {
   return (
     <>
       <div>
+        <hr />
         <div>
           <h5>{categoriesSlice}</h5>
         </div>

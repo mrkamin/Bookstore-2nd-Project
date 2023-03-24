@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/booksSlice';
 
@@ -11,8 +12,10 @@ const BooksInputs = () => {
         e.preventDefault();
         const title = e.target.elements.title.value;
         const author = e.target.elements.author.value;
-        const load = { title, author };
-        dispatch(addBook(load));
+        const payload = {
+          item_id: uuidv4(), title, author, category: 'fiction',
+        };
+        dispatch(addBook(payload)).unwrap();
         e.target.reset();
       }}
       >

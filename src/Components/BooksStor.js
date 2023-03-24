@@ -10,7 +10,7 @@ const BooksSlice = () => {
     <>
       {booksSlice.map((bookItem) => (
         <BooksItem
-          key={bookItem.id}
+          key={bookItem.item_id}
           item={bookItem}
         />
       ))}
